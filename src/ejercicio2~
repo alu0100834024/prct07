@@ -1,0 +1,15 @@
+#!/usr/bin/python
+#! encoding: UTF-8
+#funcion para aproximar el numero pi
+import modulo
+import sys
+#valores={10,100,1000,10000,1000000,10000000}#El máximo número de elementos es 7, es decir, hasta 10000000
+#notacion cientifica:
+valores={1e1,1e2,1e3,1e4,1e5,1e6,1e7}
+for subintervalos in valores:
+  s=modulo.numeropi(subintervalos)
+  print s
+
+
+#Se producen errores de memoria a partir del elemento 8, es decir, desde 100000000
+#La expresión .pyc es el archivo ya compilado e interpretado, este archivo se origina despues de interpretar y compilar este documento.

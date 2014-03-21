@@ -1,0 +1,19 @@
+#!/usr/bin/python
+#! encoding: UTF-8
+#funcion para aproximar el numero pi
+import modulo
+
+def mostrar(l):
+   
+
+
+
+
+  
+valores={10,100,1000,10000,100000,1000000,10000000}
+l = []
+for subintervalos in valores:
+  s=modulo.numeropi(subintervalos)
+  l = l + [s]
+
+mostrar(l)
